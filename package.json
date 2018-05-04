@@ -11,5 +11,13 @@
     "bootstrap"
   ],
   "author": "Hayden Worden",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovercode1/custom-sass-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rovercode1/custom-sass-template/issues"
+  },
+  "homepage": "https://github.com/rovercode1/custom-sass-template#readme"
 }
