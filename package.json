@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/rovercode1/custom-sass-template/issues"
   },
-  "homepage": "https://github.com/rovercode1/custom-sass-template#readme"
+  "homepage": "https://github.com/rovercode1/custom-sass-template#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
 }
