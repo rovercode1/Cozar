@@ -1,0 +1,39 @@
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.wrap{
+	width: inherit;
+	overflow: hidden;
+	margin: auto;
+}
+
+.line {
+	width:80%;
+	background-color:red;
+	border:1px solid $main-color;
+}
+.container-flex{
+	width:80%;
+	display:flex;
+	overflow: hidden;
+	margin: auto;
+	align-items: center;  
+	.box-1{
+		flex:1;
+		align-items: center;
+	}
+	
+	.box-2{
+		flex:2;
+		align-items: center;
+	}
+	.div-center{
+		align-items: center;
+		justify-content: center;
+		display:flex;
+		width: inherit;
+		margin: auto;
+		overflow: hidden;
+	}
+}

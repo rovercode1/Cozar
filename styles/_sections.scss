@@ -1,0 +1,63 @@
+
+.section-bg{
+	padding:10px 0px 100px 0px;
+	background-size:cover ;
+	background-position: center; 
+}
+
+.section-h3{
+	font-size: 40px;
+	text-align: left;
+	margin: 10px 0px;
+	font-weight: 100;
+}
+
+.section-p{
+	font-size: 16px;
+	text-align: left;
+	margin:30px 0px; 
+}
+
+.base-section{
+	color: $section-color;
+	padding: 80px 0px;
+}
+
+
+.base-header{
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 70px;
+}
+
+.base-header h1{
+	font-size: 65px;
+}
+
+
+.base-line{
+	border: 1px solid $main-color;
+}
+
+.image img.img {
+	max-width: 100%;
+	width: 500px;
+}
+
+.image img{
+	margin:40px 0px;
+}
+
+
+img.img{
+	width: 300px;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-container {
+	float: left;
+	margin: auto;
+	width: 100%;
+	padding: 20px 0px;
+}
