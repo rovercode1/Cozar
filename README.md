@@ -12,9 +12,13 @@ This was achevied by the help of **Bootstrap** and **sass**.
 **base-section**- is used as a default section.
 Using this inside of your main section will eliminate the fuss of adding the base of any section.
   **For example:**
+  <br>
   `section class="custom-section"`
+    <br>
     `--- div class="base-section"`
+      <br>
     -----------code here-----------
+      <br>
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
