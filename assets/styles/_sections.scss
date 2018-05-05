@@ -5,8 +5,9 @@
 	background-position: center; 
 }
 
-.section-h{
-	font-size: 50px;
+.section-h3{
+	font-size: 40px;
+	text-align: left;
 	margin: 10px 0px;
 	font-weight: 100;
 }
@@ -15,6 +16,7 @@
 	font-size: 16px;
 	margin:30px 0px; 
 }
+
 
 .base-section{
 	color: $section-color;
@@ -28,11 +30,12 @@
 	margin-bottom: 70px;
 }
 
+
 .base-line{
 	border: 1px solid $main-color;
 }
 
-.image img.img {
+.image .section-img {
 	max-width: 100%;
 	width: 500px;
 }
@@ -42,8 +45,7 @@
 }
 
 
-img.img{
-	width: 300px;
+img.section-img{
 	max-width: 100%;
 	height: auto;
 }

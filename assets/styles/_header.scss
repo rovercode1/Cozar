@@ -1,0 +1,13 @@
+header.section-bg{
+    background:url("../../Img/iphone2.jpg");
+    background-size:cover ;
+    background-position: center; 
+}
+
+.container .light-line{
+    opacity: 0.2;
+}
+
+.light-line{
+    border:0.5px solid $light-line;
+}
