@@ -5,13 +5,6 @@
 	background-position: center; 
 }
 
-.section-h3{
-	font-size: 40px;
-	text-align: left;
-	margin: 10px 0px;
-	font-weight: 100;
-}
-
 .tag{
 	font-size: 16px;
 	margin:30px 0px; 
@@ -23,16 +16,11 @@
 	padding: 80px 0px;
 }
 
-
 .base-header{
 	text-align: center;
 	font-size: 70px;
 	margin-bottom: 70px;
-}
-
-
-.base-line{
-	border: 1px solid $main-color;
+	font-weight: 100;
 }
 
 .image .section-img {
@@ -43,7 +31,6 @@
 .image img{
 	margin:40px 0px;
 }
-
 
 img.section-img{
 	max-width: 100%;

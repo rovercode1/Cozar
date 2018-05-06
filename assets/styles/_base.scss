@@ -13,6 +13,11 @@ body{
 	background-color:red;
 	border:1px solid $main-color;
 }
+
+.base-line{
+	border: 1px solid $main-color;
+}
+
 .container-flex{
 	width:80%;
 	display:flex;
