@@ -8,14 +8,20 @@ body{
 	margin: auto;
 }
 
+.overlay{
+	background: rgba(255, 255, 255, 0.644);
+}
+
 .line {
 	width:80%;
 	background-color:red;
 	border:1px solid $main-color;
 }
 
-.base-line{
-	border: 1px solid $main-color;
+.container{
+	width:80%;
+	overflow: hidden;
+	margin: auto;
 }
 
 .container-flex{
