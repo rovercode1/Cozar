@@ -24,21 +24,29 @@ body{
 	margin: auto;
 }
 
+
+.container-flex-fluid{
+	width:95%;
+	display:flex;
+	overflow: hidden;
+	margin: auto;
+	align-items: center;  
+}
 .container-flex{
 	width:80%;
 	display:flex;
 	overflow: hidden;
 	margin: auto;
 	align-items: center;  
-	.box-1{
-		flex:1;
-		align-items: center;
-	}
-	
-	.box-2{
-		flex:2;
-		align-items: center;
-	}
+}
+.box-1{
+	flex:1;
+	align-items: center;
+}
+
+.box-2{
+	flex:2;
+	align-items: center;
 }
 .div-center{
 	align-items: center;

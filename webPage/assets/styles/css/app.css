@@ -6991,18 +6991,27 @@ body {
   overflow: hidden;
   margin: auto; }
 
+.container-flex-fluid {
+  width: 95%;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  align-items: center; }
+
 .container-flex {
   width: 80%;
   display: flex;
   overflow: hidden;
   margin: auto;
   align-items: center; }
-  .container-flex .box-1 {
-    flex: 1;
-    align-items: center; }
-  .container-flex .box-2 {
-    flex: 2;
-    align-items: center; }
+
+.box-1 {
+  flex: 1;
+  align-items: center; }
+
+.box-2 {
+  flex: 2;
+  align-items: center; }
 
 .div-center {
   align-items: center;
@@ -7021,8 +7030,22 @@ body {
   .showcase p {
     font-size: 18px;
     font-weight: 700; }
-  .showcase .base-section.overlay {
-    padding: 40px 0px; }
+
+nav.b-nav {
+  margin: 15px 0px; }
+  nav.b-nav .box-1 {
+    text-align: center; }
+  nav.b-nav .box-2 {
+    flex: 3; }
+  nav.b-nav .navbar-brand {
+    width: 100%;
+    margin: 0px 11px; }
+  nav.b-nav .navbar-brand img {
+    width: 150px;
+    margin-bottom: 10px; }
+  nav.b-nav p {
+    font-size: 11px;
+    font-weight: 700; }
 
 .nav-li a {
   border-bottom: 3px solid #333;

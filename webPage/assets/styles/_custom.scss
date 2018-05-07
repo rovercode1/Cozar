@@ -10,13 +10,30 @@
 		font-size: 18px;
 		font-weight: 700;
 	}
-	.base-section.overlay {
-		padding: 40px 0px;
-	}
 }
 
 
-
+nav.b-nav{
+	margin: 15px 0px;
+	.box-1 {
+    text-align: center;
+}
+.box-2 {
+	flex: 3;
+}
+	.navbar-brand {
+		width: 100%;
+		margin: 0px 11px;
+}
+	.navbar-brand img {
+		width: 150px;
+		margin-bottom: 10px;
+}
+p{
+	font-size:11px;
+	font-weight:700;
+}
+}
 
 .nav-li a {
 	border-bottom: 3px solid #333;
