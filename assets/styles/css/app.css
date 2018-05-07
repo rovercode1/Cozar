@@ -6752,6 +6752,35 @@ a.text-dark:hover, a.text-dark:focus {
 nav {
   font-family: 'Nunito', sans-serif; }
 
+.b-nav {
+  background: white;
+  width: 100%;
+  height: 100px; }
+  .b-nav .container-flex {
+    height: inherit; }
+
+.nav-xs {
+  height: 45px; }
+
+.nav-md {
+  height: 55px; }
+
+.nav-lg {
+  height: 70px; }
+
+.nav-xl {
+  height: 100px; }
+
+.nav-li {
+  display: inline;
+  margin: 10px; }
+
+.navbar-links {
+  text-align: right; }
+
+.navbar-brand img {
+  width: 130px; }
+
 .navbar-default {
   background: rgba(255, 255, 255, 0);
   border: none; }
@@ -6811,21 +6840,30 @@ nav {
   .nav-box {
     position: relative;
     top: -200px; } }
-.showcase .base-section {
+.showcase {
   background: url("../../img/pier.jpeg");
   background-size: cover;
   background-position: center; }
+  .showcase h1 {
+    font-size: 90px;
+    margin: 0px; }
+  .showcase p {
+    font-size: 18px;
+    font-weight: 700; }
+  .showcase .base-section.overlay {
+    padding: 40px 0px; }
 
-header.section-bg {
-  background: url("../../Img/iphone2.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.container .light-line {
-  opacity: 0.2; }
-
-.light-line {
-  border: 0.5px solid white; }
+.nav-li a {
+  border-bottom: 3px solid #333;
+  padding-bottom: 4px;
+  font-weight: 700;
+  color: #333; }
+  .nav-li a:hover {
+    color: #1e0fbe;
+    border-bottom: 3px solid #1e0fbe;
+    text-decoration: none; }
+  .nav-li a p {
+    font-size: 12px; }
 
 .showcase .light-line {
   width: 500px;
@@ -6890,13 +6928,18 @@ header.section-bg {
   background-size: cover;
   background-position: center; }
 
+.leading {
+  font-size: 50px;
+  margin: 30px 0px; }
+
 .tag {
   font-size: 16px;
-  margin: 30px 0px; }
+  margin: 10px 0px; }
 
 .base-section {
   color: #454545;
-  padding: 80px 0px; }
+  padding: 80px 0px;
+  font-family: 'Open Sans', sans-serif; }
 
 .base-header {
   text-align: center;
@@ -6921,68 +6964,6 @@ img.section-img {
   width: 100%;
   padding: 20px 0px; }
 
-.iphone-section {
-  font-family: 'Open Sans', sans-serif;
-  background: url("../../Img/blue-white.jpg");
-  padding: 100px 0px 0px 0px;
-  background-size: cover;
-  background-position: top;
-  color: #454545; }
-
-.iphone-section img {
-  height: inherit;
-  float: right; }
-
-.iphone-section .icon {
-  width: 100px;
-  float: left;
-  height: 100px; }
-
-.web-section {
-  background: url("../../Img/section-cog-background.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-  .web-section .image .section-img {
-    max-width: 100%;
-    width: 500px; }
-
-.web-section .image .section-img {
-  margin: 0;
-  width: inherit; }
-
-.web-section .jumbotron {
-  padding: 7px;
-  background: #0000001a;
-  margin-top: 100px;
-  max-width: 500px;
-  padding: 10px; }
-
-.web-section .img-container img.icon {
-  height: 100px; }
-
-.laptop-section img.img {
-  width: 1000px;
-  max-width: 100%;
-  height: auto;
-  margin-top: 100px; }
-
-.laptop-section .img-container img.icon {
-  height: 100px; }
-
-.laptop-section hr {
-  border: 0.5px solid;
-  opacity: 0.2; }
-
-.final-section {
-  text-align: center;
-  background: url("../../Img/blue-white.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.final-section .section-h3, .final-section .section-p {
-  text-align: center; }
-
 footer {
   color: #424242; }
 
@@ -6997,54 +6978,6 @@ footer {
 .s-icon img:hover {
   opacity: 0.4; }
 
-.loading {
-  background: url("../../Img/loading.gif") no-repeat;
-  height: 900px;
-  background-position: center; }
-
-.page-load {
-  opacity: 0; }
-
-.loaded {
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
-  opacity: 1; }
-
-.none {
-  opacity: 0; }
-
-.show {
-  animation-name: showcaseShow;
-  animation-duration: 1s; }
-
-.block {
-  overflow: hidden; }
-
-@keyframes showcaseShow {
-  0% {
-    opacity: 0; }
-  10% {
-    opacity: 0.1; }
-  20% {
-    opacity: 0.2; }
-  30% {
-    opacity: 0.3; }
-  40% {
-    opacity: 0.4; }
-  50% {
-    opacity: 0.5; }
-  60% {
-    opacity: 0.6; }
-  70% {
-    opacity: 0.7; }
-  80% {
-    opacity: 0.8; }
-  90% {
-    opacity: 0.9; }
-  100% {
-    opacity: 1; } }
 .fill {
   fill: white; }
 
@@ -7070,13 +7003,18 @@ body {
   overflow: hidden;
   margin: auto; }
 
+.overlay {
+  background: rgba(255, 255, 255, 0.644); }
+
 .line {
   width: 80%;
   background-color: red;
   border: 1px solid #333; }
 
-.base-line {
-  border: 1px solid #333; }
+.container {
+  width: 80%;
+  overflow: hidden;
+  margin: auto; }
 
 .container-flex {
   width: 80%;
