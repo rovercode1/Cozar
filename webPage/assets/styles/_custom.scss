@@ -1,5 +1,5 @@
 .showcase{
-	background:url("../../img/pier.jpeg");
+	background:url("../../img/red.jpeg");
 	background-size:cover;
 	background-position: center;
 	h1{
@@ -9,6 +9,9 @@
 	p{
 		font-size: 18px;
 		font-weight: 700;
+	}
+	.overlay{
+		background: #020202a1;
 	}
 }
 

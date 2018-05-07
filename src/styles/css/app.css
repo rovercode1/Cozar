@@ -6979,7 +6979,7 @@ body {
   margin: auto; }
 
 .overlay {
-  background: rgba(255, 255, 255, 0.644); }
+  background: rgba(253, 253, 253, 0.644); }
 
 .line {
   width: 80%;
@@ -6990,6 +6990,9 @@ body {
   width: 80%;
   overflow: hidden;
   margin: auto; }
+
+.flex-box {
+  display: flex; }
 
 .container-flex-fluid {
   width: 95%;
