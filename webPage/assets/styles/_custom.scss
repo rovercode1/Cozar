@@ -1,25 +1,15 @@
-.showcase{
-	background:url("../../img/red.jpeg");
-	background-size:cover;
-	background-position: center;
-	h1{
-		font-size: 90px;
-		margin: 0px;
-	}
-	p{
-		font-size: 18px;
-		font-weight: 700;
-	}
-	.overlay{
-		background: #020202a1;
-	}
-}
-
 
 nav.b-nav{
-	margin: 15px 0px;
+	margin: 0px !important;
+	.container-flex{
+		width: 100%;
+		width: 82%;
+	}
+	margin: 18px 0px;
 	.box-1 {
-    text-align: center;
+		display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box-2 {
 	flex: 3;
@@ -29,12 +19,13 @@ nav.b-nav{
 		margin: 0px 11px;
 }
 	.navbar-brand img {
-		width: 150px;
+		width: 115px;
 		margin-bottom: 10px;
 }
 p{
-	font-size:11px;
+	font-size: 14px;
 	font-weight:700;
+	margin: 0;
 }
 }
 
@@ -50,5 +41,110 @@ p{
 	}
 	p{
 		font-size:12px;
+	}
+}
+
+.showcase{
+	background:url("../../img/background.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	height: 500px;
+	.container-fluid{
+		height: 100%;
+	}
+	.base-section{
+		padding: 70px 0px;
+	}
+	h1.tag {
+		font-size: 40px;
+		font-weight: 900;
+		font-family: 'Roboto', sans-serif;
+		letter-spacing: 3px;
+		color: #333;
+	}
+	p.tag {
+		font-size: 30px;
+		margin: 0px 0px 20px 0px;
+	}
+	a{
+		color:rgb(5, 5, 5);
+		font-size: 25px;
+		text-decoration: underline;
+		&:hover{color:#1e0fbe}
+	}
+
+	.overlay{
+		background: #ffffff00;
+		height: inherit;
+	}
+	.box-2{
+		text-align: right;
+		font-family:30px;
+
+	}
+
+	.flex-box{
+		height: 50%;
+		align-items: flex-end;
+		.tag{
+			color: rgb(0, 0, 0);
+			font-family:30px;
+		}
+		margin-bottom: -10px;
+	}
+}
+
+.block{
+	position: relative;
+	top: -40px;
+	.container-flex{
+		justify-content: center;
+	}
+
+	.box-1{
+		flex: 0;
+	}
+
+	img#arrow {
+		height: 100px;
+	}
+}
+
+.first-section{
+	h3{
+		color: #000;
+		font-family: 'Karla', sans-serif;
+		text-align: center;
+		font-weight: 700;
+		word-spacing: 4px;
+		font-size: 26px;
+		word-spacing: -1px;
+    line-height: 40px;
+	}
+	.base-section{
+		padding: 10px 0px;
+	}
+}
+@media(max-width:1250px){
+	.first-section .base-section .container{
+		width: 100%;
+	}
+	.first-section .base-section .container h3{
+		font-size: 23px;
+	}
+
+}
+
+@media(max-width:1010px){
+	nav.b-nav .container-flex {
+		width: 100%;
+	}
+	.first-section .base-section .container{
+		width: 100%;
+	}
+	.first-section .base-section .container h3{
+		font-size: 20px;
 	}
 }
