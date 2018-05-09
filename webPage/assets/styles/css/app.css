@@ -7023,6 +7023,26 @@ body {
   margin: auto;
   overflow: hidden; }
 
+.box-border {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  justify-content: center; }
+
+.box-default {
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.in-box-default {
+  background: red;
+  height: 70%;
+  width: 70%; }
+
 nav.b-nav {
   margin: 0px !important;
   margin: 18px 0px; }
@@ -7133,10 +7153,8 @@ nav.b-nav {
   .project-section .boxes {
     display: flex;
     align-items: center;
-    /* flex: 1; */
     background: rgba(255, 254, 254, 0);
     width: 100%;
-    /* margin: 30px; */
     height: 400px;
     justify-content: center; }
     .project-section .boxes:hover {
@@ -7156,5 +7174,17 @@ nav.b-nav {
 @media (max-width: 792px) {
   .showcase, .block {
     display: none; } }
+.box-border {
+  background-color: #ff1e1e;
+  width: 100%; }
+  .box-border .box-default {
+    background-color: #02f5a4;
+    width: 200px;
+    height: 200px;
+    margin: 10px; }
+    .box-border .box-default .in-box-default {
+      background: #fcfcfc;
+      height: 70%;
+      width: 70%; }
 
 /*# sourceMappingURL=app.css.map */

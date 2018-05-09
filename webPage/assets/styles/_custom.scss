@@ -156,10 +156,8 @@ p{
 	.boxes{
 		display: flex;
 		align-items: center;
-		/* flex: 1; */
 		background: rgba(255, 254, 254, 0);
 		width: 100%;
-		/* margin: 30px; */
 		height: 400px;
 		justify-content: center;
 		&:hover{background: red;}
@@ -189,3 +187,27 @@ p{
 		display:none;
 	}
 }
+
+.box-border{
+	background-color: rgb(255, 30, 30);
+	width: 100%;
+	.box-default{
+		background-color: #02f5a4;
+		width: 200px;
+		height:200px;
+		margin: 10px;
+		.in-box-default{
+			background: rgb(252, 252, 252);
+			height: 70%;
+			width: 70%;
+		}
+	}	
+}	
+
+
+
+
+
+
+
+
