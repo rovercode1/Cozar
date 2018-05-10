@@ -60,24 +60,14 @@ body{
 }
 
 .box-border{
-  display: flex;
-  flex-wrap: wrap;
-	background-color: DodgerBlue;
-	justify-content: center;
-}
-
-.box-default{
-  background-color: #f1f1f1;
-  width: 400px;
-  height:400px;
-	margin: 10px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.in-box-default{
-	background: red;
-	height: 70%;
-	width: 70%;
+	.box-default{
+		background-color: #ffffff;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+		.in-box-default{
+			background: rgb(0, 0, 0);
+		}
+	}	
 }

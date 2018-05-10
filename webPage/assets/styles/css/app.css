@@ -7024,24 +7024,14 @@ body {
   overflow: hidden; }
 
 .box-border {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: DodgerBlue;
-  justify-content: center; }
-
-.box-default {
-  background-color: #f1f1f1;
-  width: 400px;
-  height: 400px;
-  margin: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.in-box-default {
-  background: red;
-  height: 70%;
-  width: 70%; }
+  display: flex; }
+  .box-border .box-default {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .box-border .box-default .in-box-default {
+      background: black; }
 
 nav.b-nav {
   margin: 0px !important;
@@ -7171,20 +7161,25 @@ nav.b-nav {
 
   .first-section .base-section .container {
     width: 99%; } }
-@media (max-width: 792px) {
+@media (max-width: 765px) {
   .showcase, .block {
+    display: none; }
+
+  .project-section {
     display: none; } }
 .box-border {
-  background-color: #ff1e1e;
-  width: 100%; }
-  .box-border .box-default {
-    background-color: #02f5a4;
-    width: 200px;
-    height: 200px;
-    margin: 10px; }
-    .box-border .box-default .in-box-default {
-      background: #fcfcfc;
-      height: 70%;
-      width: 70%; }
+  background: #1e0fbe; }
+
+.box-default {
+  background-color: #02f5a4;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .box-default .in-box-default {
+    background: red;
+    height: 70%;
+    width: 70%; }
 
 /*# sourceMappingURL=app.css.map */

@@ -182,27 +182,33 @@ p{
 	// }
 }
 
-@media(max-width:792px){
+@media(max-width:765px){
 	.showcase , .block{
 		display:none;
+	}
+	.project-section{
+		display: none;
 	}
 }
 
 .box-border{
-	background-color: rgb(255, 30, 30);
-	width: 100%;
-	.box-default{
-		background-color: #02f5a4;
-		width: 200px;
-		height:200px;
-		margin: 10px;
-		.in-box-default{
-			background: rgb(252, 252, 252);
-			height: 70%;
-			width: 70%;
-		}
-	}	
+	background: #1e0fbe;
 }	
+
+.box-default{
+	background-color: #02f5a4;
+	width: 200px;
+	height:200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.in-box-default{
+		background: red;
+		height: 70%;
+		width: 70%;
+	}
+}	
+
 
 
 
