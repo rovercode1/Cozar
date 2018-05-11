@@ -7023,22 +7023,6 @@ body {
   margin: auto;
   overflow: hidden; }
 
-.inner-box {
-  box-sizing: content-box;
-  background: #363836;
-  margin: 10px;
-  height: 300px;
-  width: 100%; }
-
-.outer-box {
-  display: flex;
-  align-items: center;
-  /* height: 400px; */
-  width: 400px;
-  background: #ff00003d;
-  padding: 0px;
-  justify-content: center; }
-
 nav.b-nav {
   margin: 0px !important;
   margin: 18px 0px; }
@@ -7173,17 +7157,13 @@ nav.b-nav {
 
   .project-section {
     display: none; } }
-.inner-box {
-  background: #363836;
-  margin: 20px;
-  height: 300px;
-  width: 100%; }
-
-.outer-box {
+.post {
   display: flex;
   align-items: center;
-  background: #ff000000;
-  padding: 0px;
   justify-content: center; }
+
+.icons {
+  width: 100%;
+  max-width: 85%; }
 
 /*# sourceMappingURL=app.css.map */

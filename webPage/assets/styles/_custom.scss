@@ -190,23 +190,17 @@ p{
 		display: none;
 	}
 }
-
-.inner-box {
-	background: #363836;
-	margin: 20px;
-	height: 300px;
-	width: 100%;
-}
-
-.outer-box{
+.post{
 	display: flex;
 	align-items: center;
-	background: #ff000000;
-	padding: 0px;
 	justify-content: center;
+
 }
 
-
+.icons{
+	width: 100%;
+	max-width: 85%;
+}
 
 
 
