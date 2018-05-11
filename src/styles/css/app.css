@@ -7023,20 +7023,4 @@ body {
   margin: auto;
   overflow: hidden; }
 
-.inner-box {
-  box-sizing: content-box;
-  background: #363836;
-  margin: 10px;
-  height: 300px;
-  width: 100%; }
-
-.outer-box {
-  display: flex;
-  align-items: center;
-  /* height: 400px; */
-  width: 400px;
-  background: #ff00003d;
-  padding: 0px;
-  justify-content: center; }
-
 /*# sourceMappingURL=app.css.map */

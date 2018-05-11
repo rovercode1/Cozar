@@ -59,21 +59,19 @@ body{
 	overflow: hidden;
 }
 
-.inner-box {
-	box-sizing: content-box;
-	background: #363836;
-	margin: 10px;
-	height: 300px;
-	width: 100%;
-}
+// .inner-box {
+// 	background: #2ae22a;
+// 	margin: 0px;
+// 	height: 100%;
+// 	width: 100%;
+// 	z-index: -1;
+// }
 
-.outer-box{
-	display: flex;
-	align-items: center;
-	/* height: 400px; */
-	width: 400px;
-	background: #ff00003d;
-	padding: 0px;
-	justify-content: center;
-}
+// .outer-box{
+// 	display: flex;
+// 	align-items: center;
+// 	background: #ff000000;
+// 	height: 480px;
+// 	justify-content: center;
+// }
 
