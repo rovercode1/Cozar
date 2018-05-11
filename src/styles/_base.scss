@@ -59,15 +59,21 @@ body{
 	overflow: hidden;
 }
 
-.box-border{
-	display: flex;
-	.box-default{
-		background-color: #ffffff;
-		display: flex;
-    justify-content: center;
-    align-items: center;
-		.in-box-default{
-			background: rgb(0, 0, 0);
-		}
-	}	
+.inner-box {
+	box-sizing: content-box;
+	background: #363836;
+	margin: 10px;
+	height: 300px;
+	width: 100%;
 }
+
+.outer-box{
+	display: flex;
+	align-items: center;
+	/* height: 400px; */
+	width: 400px;
+	background: #ff00003d;
+	padding: 0px;
+	justify-content: center;
+}
+

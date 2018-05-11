@@ -191,27 +191,20 @@ p{
 	}
 }
 
-.box-border{
-	background: #1e0fbe;
-}	
+.inner-box {
+	background: #363836;
+	margin: 20px;
+	height: 300px;
+	width: 100%;
+}
 
-.box-default{
-	background-color: #02f5a4;
-	width: 200px;
-	height:200px;
+.outer-box{
 	display: flex;
 	align-items: center;
+	background: #ff000000;
+	padding: 0px;
 	justify-content: center;
-	.in-box-default{
-		background: red;
-		height: 70%;
-		width: 70%;
-	}
-}	
-
-
-
-
+}
 
 
 
