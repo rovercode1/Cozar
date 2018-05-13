@@ -7157,13 +7157,30 @@ nav.b-nav {
 
   .project-section {
     display: none; } }
-.post {
+.project-section .container-fluid {
+  width: 84%; }
+.project-section .blockOverlay {
+  width: 700px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column; }
+  .project-section .blockOverlay h1 {
+    color: #fff;
+    font-weight: 700; }
+.project-section .post {
   display: flex;
   align-items: center;
-  justify-content: center; }
-
-.icons {
+  justify-content: center;
+  /* margin: 10px 0px 0px 0px; */
+  height: 100%;
   width: 100%;
-  max-width: 85%; }
+  padding: 3px; }
+.project-section .icons {
+  max-width: 85%;
+  z-index: -1;
+  margin: 20px; }
 
 /*# sourceMappingURL=app.css.map */

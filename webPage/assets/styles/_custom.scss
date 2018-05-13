@@ -190,17 +190,43 @@ p{
 		display: none;
 	}
 }
-.post{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+.project-section{
+	.container-fluid{
+		width: 84%;
+	}
+	.blockOverlay{
+		width: 700px;
+		height: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		flex-direction: column;
+		h1{
+			color: #fff;
+			font-weight: 700;
+		}
+	}
+	.post{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/* margin: 10px 0px 0px 0px; */
+		height: 100%;
+		width: 100%;
+		padding: 3px;
+
+	}
+	
+	.icons{
+		max-width: 85%;
+		z-index: -1;
+		margin: 20px;
+	}
 
 }
 
-.icons{
-	width: 100%;
-	max-width: 85%;
-}
 
 
 
