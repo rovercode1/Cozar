@@ -7027,12 +7027,6 @@ body {
   .project-section .icon-con .box-1 .icon-h1 {
     padding-bottom: 50%; } }
 @media (max-width: 1200px) {
-  .project-section .container-fluid {
-    width: 95%; }
-
-  .project-section .icon-con .box-1 .icon-h1 {
-    padding-bottom: 40%; } }
-@media (max-width: 1200px) {
   .project-section .base-section .container-fluid {
     width: 100%; }
 
@@ -7267,9 +7261,17 @@ nav.b-nav {
 
 footer {
   color: #777; }
-  footer p.social-icons {
-    font-size: 40px;
-    float: right;
-    margin: 0px 10px; }
+  footer .row {
+    width: 100%; }
+    footer .row .flex-box {
+      flex-direction: column; }
+      footer .row .flex-box p.social-icons {
+        font-size: 15px;
+        float: right;
+        margin: 0px 6px;
+        color: #777;
+        cursor: pointer; }
+        footer .row .flex-box p.social-icons:hover {
+          color: #1e0fbe; }
 
 /*# sourceMappingURL=app.css.map */
