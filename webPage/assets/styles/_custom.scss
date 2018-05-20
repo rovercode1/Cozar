@@ -1,9 +1,26 @@
 
 nav.b-nav{
+	height: 100%;
 	margin: 0px 0px 20px 0px;;
 	.container-flex{
-		width: 100%;
 		width: 82%;
+	}
+
+	.nav-left{
+		margin: 15px 0px;
+		.navbar-brand {
+			width: 100%;
+	
+		}
+		.navbar-brand img {
+			width: 115px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 14px;
+			font-weight:700;
+			margin: 0;
+		}
 	}
 	.box-1 {
 		display: flex;
@@ -21,19 +38,7 @@ nav.b-nav{
 			}
 		}
 	}
-	.navbar-brand {
-		width: 100%;
-		margin: 0px 20px 5px 15px;
-	}
-	.navbar-brand img {
-		width: 115px;
-		margin-bottom: 10px;
-	}
-	p{
-		font-size: 14px;
-		font-weight:700;
-		margin: 0;
-	}
+
 }
 
 .nav-li a {
@@ -155,7 +160,6 @@ nav.b-nav{
 
 
 .project-section{
-	height: 700px;
 	.base-section{
 		padding: 0px;
 		.boxes{
@@ -178,13 +182,11 @@ nav.b-nav{
 		a{
 			color: #000;
 			letter-spacing: 0.4px;
-			font-size: 20px;
+			font-size: 18px;
 			word-spacing: 2px;
 			border-bottom: 3px solid black;
 			 &:hover{color:#1e0fbe;text-decoration: none;border-bottom: 3px solid #1e0fbe;}}
 	}
-}
-.project-section{
 	.container-fluid{
 		width: 84%;
 	}
@@ -230,16 +232,18 @@ nav.b-nav{
 			justify-content: center;
 			height: 100%;
 			position: absolute;
-		.icon-h1{
-			height: 100%;
-			text-transform: capitalize;
-			text-align: left;
-			font-family: 'Poppins', sans-serif;
-			line-height: 100px;
-			h1{
-				margin: 20px 0px 0px 10px;
+			.icon-h1{
+				height: 100%;
+				text-transform: capitalize;
+				text-align: left;
+				font-family: 'Poppins', sans-serif;
+				line-height: 100px;
+				h1{
+				margin: 20px 0px 0px 5px;
+				word-break: break-word;
+				}
+				
 			}
-		}
 		}
 		.box-2 {
 			display: flex;
@@ -269,6 +273,19 @@ footer{
 				color: #777;
 				cursor: pointer;
 				&:hover{color:#1e0fbe;}
+			}
+			.f-desc{
+				float: right;
+				margin: 15px 0px;
+				p {
+					color: #777;
+				 	margin: 0px;
+					 font-size: 12.3px;
+					font-weight: 700;
+					float: right;
+					font-family: 'Nunito', sans-serif;
+					text-align: right;
+				}
 			}
 		}
 	}
