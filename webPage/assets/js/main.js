@@ -10,7 +10,7 @@ for(var i=0; i < iconBox.length;i++){
   this.parentElement.style.background="black"
   this.children[0].style.visibility="inherit";
   this.children[1].style.visibility="hidden";
-  this.children[2].style.color="white";
+  this.children[2].classList.add("block-p")
   })
 }
 for(var i=0; i < iconBox.length;i++){
@@ -19,7 +19,8 @@ for(var i=0; i < iconBox.length;i++){
   this.parentElement.style.background="#fff0"
    this.children[0].style.visibility="hidden";
    this.children[1].style.visibility="inherit";
-   this.children[2].style.color="black";
+   this.children[2].classList.remove("block-p")
+   
   })
 }
 
