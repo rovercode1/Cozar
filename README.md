@@ -29,7 +29,7 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+Instead of creating a sass template project including styles/classes that I didn't know if i would need or not, I decided to mimic the website Cozar.com and whenever i came across some css that I thought would be useful in the future, i placed it in the src file; the base styles of the website. Then for my next project, instead of creating it again, i can just use my sass template styles :)
 
 
 
