@@ -1,3 +1,11 @@
+// Global
+.main-link a{
+		color: #000;
+		border-bottom: 3px solid;
+		&:hover{color: $main-link;
+		text-decoration: none;
+		}
+	}
 
 nav.b-nav{
 	height: 100%;
@@ -42,15 +50,8 @@ nav.b-nav{
 }
 
 .nav-li a {
-	border-bottom: 3px solid #333;
 	padding-bottom: 4px;
 	font-weight: 700;
-	color:#333;
-	&:hover{
-		color:#1e0fbe;
-		border-bottom: 3px solid #1e0fbe;
-		text-decoration: none;
-	}
 	p{
 		font-size:12px;
 	}
@@ -84,7 +85,7 @@ nav.b-nav{
 		color:rgb(5, 5, 5);
 		font-size: 25px;
 		text-decoration: underline;
-		&:hover{color:#1e0fbe}
+		&:hover{color:$main-link}
 	}
 
 	.overlay{
@@ -141,19 +142,28 @@ nav.b-nav{
 		width: 50%;
 		a{
 			color: #000;
-			&:hover{color:#1e0fbe;}
+			&:hover{color:$main-link;}
 		}
 	}
 }
 
 .main-header {
 	text-align: center;
+	padding: 40px;
 	.base-section{
 		padding: 40px 0px;
-		h1 {
+		h1,a {
 			font-size: 25px;
 			font-weight: 900;
 			font-family: 'Roboto Condensed', sans-serif;
+			color: black;
+		}
+		a{
+			border-bottom: 3px solid black;
+			&:hover{color:$main-link;
+				border-bottom: 3px solid $main-link;	
+				text-decoration: none;			
+			}
 		}
 	}
 }
@@ -185,7 +195,7 @@ nav.b-nav{
 			font-size: 18px;
 			word-spacing: 2px;
 			border-bottom: 3px solid black;
-			 &:hover{color:#1e0fbe;text-decoration: none;border-bottom: 3px solid #1e0fbe;}}
+			 &:hover{color:$main-link;text-decoration: none;border-bottom: 3px solid $main-link;}}
 	}
 	.container-fluid{
 		width: 84%;
@@ -223,7 +233,12 @@ nav.b-nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+		flex-direction: column;
+		p{
+			font-size: 12px;
+			font-weight: 700;
+			margin: -10px;
+		}
     padding: 0px;
 		.box-1{
 			display: flex;
@@ -261,33 +276,40 @@ nav.b-nav{
 }
 
 footer{
-	color: #777;
-	.row{
-		width: 100%;
-		.flex-box{
-			flex-direction: column;
+	color: $grey;
+	.flex-box{
+		display: flex;
+		flex-direction: column;
+		#social-icons{
+			display: flex;
+			justify-content: flex-end;
+		}
 			p.social-icons {
 				font-size: 15px;
-				float: right;
 				margin: 0px 6px;
-				color: #777;
+				color: $grey;
 				cursor: pointer;
-				&:hover{color:#1e0fbe;}
-			}
-			.f-desc{
-				float: right;
-				margin: 15px 0px;
-				p {
-					color: #777;
-				 	margin: 0px;
-					 font-size: 12.3px;
-					font-weight: 700;
-					float: right;
-					font-family: 'Nunito', sans-serif;
-					text-align: right;
-				}
+				&:hover{color:$main-link;}
 			}
 		}
+		#f-desc{
+			margin: 15px 0px;
+			p {
+				color: $grey;
+				margin: 0px;
+				font-size: 12.3px;
+				font-weight: 700;
+				float: right;
+				font-family: 'Nunito', sans-serif;
+				text-align: right;
+
+			}
+		}
+		.main-link a{
+			color: $grey;
+		}
 	}
-}
+
+
+
 
