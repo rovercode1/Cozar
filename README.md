@@ -33,14 +33,6 @@ Instead of creating a sass template project including styles/classes that I didn
 
 
 
-## Contributors
-Anyone is free to contribte :)
-
-
-
-
-
-
 
 
 
