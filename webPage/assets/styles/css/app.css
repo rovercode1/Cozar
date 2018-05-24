@@ -7023,6 +7023,13 @@ body {
   margin: auto;
   overflow: hidden; }
 
+.main-link a {
+  color: #000;
+  border-bottom: 3px solid; }
+  .main-link a:hover {
+    color: #1e0fbe;
+    text-decoration: none; }
+
 nav.b-nav {
   height: 100%;
   margin: 0px 0px 20px 0px; }
@@ -7053,14 +7060,8 @@ nav.b-nav {
         padding: 0px 1px; }
 
 .nav-li a {
-  border-bottom: 3px solid #333;
   padding-bottom: 4px;
-  font-weight: 700;
-  color: #333; }
-  .nav-li a:hover {
-    color: #1e0fbe;
-    border-bottom: 3px solid #1e0fbe;
-    text-decoration: none; }
+  font-weight: 700; }
   .nav-li a p {
     font-size: 12px; }
 
@@ -7132,13 +7133,21 @@ nav.b-nav {
       color: #1e0fbe; }
 
 .main-header {
-  text-align: center; }
+  text-align: center;
+  padding: 40px; }
   .main-header .base-section {
     padding: 40px 0px; }
-    .main-header .base-section h1 {
+    .main-header .base-section h1, .main-header .base-section a {
       font-size: 25px;
       font-weight: 900;
-      font-family: 'Roboto Condensed', sans-serif; }
+      font-family: 'Roboto Condensed', sans-serif;
+      color: black; }
+    .main-header .base-section a {
+      border-bottom: 3px solid black; }
+      .main-header .base-section a:hover {
+        color: #1e0fbe;
+        border-bottom: 3px solid #1e0fbe;
+        text-decoration: none; }
 
 .project-section .base-section {
   padding: 0px; }
@@ -7198,6 +7207,10 @@ nav.b-nav {
   justify-content: center;
   flex-direction: column;
   padding: 0px; }
+  .project-section .icon-con p {
+    font-size: 12px;
+    font-weight: 700;
+    margin: -10px; }
   .project-section .icon-con .box-1 {
     display: flex;
     align-items: center;
@@ -7227,29 +7240,31 @@ nav.b-nav {
 
 footer {
   color: #777; }
-  footer .row {
-    width: 100%; }
-    footer .row .flex-box {
-      flex-direction: column; }
-      footer .row .flex-box p.social-icons {
-        font-size: 15px;
-        float: right;
-        margin: 0px 6px;
-        color: #777;
-        cursor: pointer; }
-        footer .row .flex-box p.social-icons:hover {
-          color: #1e0fbe; }
-      footer .row .flex-box .f-desc {
-        float: right;
-        margin: 15px 0px; }
-        footer .row .flex-box .f-desc p {
-          color: #777;
-          margin: 0px;
-          font-size: 12.3px;
-          font-weight: 700;
-          float: right;
-          font-family: 'Nunito', sans-serif;
-          text-align: right; }
+  footer .flex-box {
+    display: flex;
+    flex-direction: column; }
+    footer .flex-box #social-icons {
+      display: flex;
+      justify-content: flex-end; }
+    footer .flex-box p.social-icons {
+      font-size: 15px;
+      margin: 0px 6px;
+      color: #777;
+      cursor: pointer; }
+      footer .flex-box p.social-icons:hover {
+        color: #1e0fbe; }
+  footer #f-desc {
+    margin: 15px 0px; }
+    footer #f-desc p {
+      color: #777;
+      margin: 0px;
+      font-size: 12.3px;
+      font-weight: 700;
+      float: right;
+      font-family: 'Nunito', sans-serif;
+      text-align: right; }
+  footer .main-link a {
+    color: #777; }
 
 .block-p {
   position: absolute;
@@ -7259,6 +7274,10 @@ footer {
 @media (max-width: 1200px) {
   .project-section .base-section .container-fluid {
     width: 100%; }
+
+  footer .container {
+    width: 100%;
+    max-width: 100%; }
 
   .first-section .container-flex-fluid {
     width: 60%; }
@@ -7305,8 +7324,17 @@ footer {
   .first-section .container-flex-fluid {
     width: 95%; } }
 @media (max-width: 765px) {
-  .showcase, .block, .main-header, .project-section {
+  .main-header .base-section a {
+    font-size: 20px; }
+
+  .main-header .base-section {
+    padding: 0px; }
+
+  .showcase, .block, .project-section {
     display: none; }
+
+  .project-section .base-section .main-header .base-section h1 {
+    display: block; }
 
   .b-nav .container-flex {
     display: flex;
@@ -7327,12 +7355,23 @@ footer {
         padding-top: 20px; }
     .b-nav .container-flex .box-2 {
       padding: 20px; }
+      .b-nav .container-flex .box-2 .nav-li a {
+        padding: 0px;
+        margin: 0px 10px;
+        font-size: 14.2px; }
 
   .first-section .base-section .container-flex-fluid {
     width: 93%; }
     .first-section .base-section .container-flex-fluid h3 {
       font-size: 17px;
       line-height: 28px;
-      margin-top: 68px; } }
+      margin-top: 68px; }
+
+  footer .flex-box .box-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center; }
+  footer .flex-box #social-icons {
+    justify-content: center; } }
 
 /*# sourceMappingURL=app.css.map */
